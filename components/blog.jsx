@@ -18,8 +18,8 @@ const Blog = () => {
     },
   ];
   return (
-    <section className="featured-blog no-padding">
-      <div className="wrapper flex flex-wrap">
+    <section className="featured-blog no-padding h-[90px]">
+      <div className="wrapper h-full flex flex-wrap">
         {data.map((wrap, index) => (
           <div className="col-three relative" key={index}>
             <div className="box-header relative">

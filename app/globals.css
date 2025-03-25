@@ -35,6 +35,7 @@ html {
   box-sizing: border-box;
   --apple-green: rgb(108, 189, 69);
   --white-smoke: #f3f3f3;
+  --cyan: #58b6c5;
 }
 
 .container {
@@ -157,7 +158,7 @@ h2,
   border-right: 2px solid #fff;
   background: var(--white-smoke);
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
   width: 33.33%;
 }
 
@@ -189,4 +190,13 @@ h2,
 
 .featured-blog h4 {
   color: #000;
+}
+
+.cta .wrapper {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.cyan {
+  background-color: var(--cyan);
 }
