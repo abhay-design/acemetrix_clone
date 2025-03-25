@@ -33,6 +33,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --apple-green: rgb(108, 189, 69);
 }
 
 .container {
@@ -63,4 +64,28 @@ h1,
   font-size: 48px;
   font-weight: 700;
   line-height: 60px;
+}
+
+/* buttons */
+
+.demo-btn {
+  padding: 8px 17px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 5px;
+  border: 2px solid var(--apple-green);
+  font-size: 16px;
+  text-align: center;
+  line-height: 22px;
+  font-weight: 700;
+  background: linear-gradient(to right, #fff 50%, rgb(108, 189, 69) 50%);
+  background-size: 220% 200%;
+  background-position: right bottom;
+  transition: all 0.2s ease;
+}
+
+.demo-btn:hover {
+  background-position: left bottom;
+  color: #000;
+  border: 2px solid #000;
 }
