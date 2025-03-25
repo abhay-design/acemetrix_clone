@@ -69,7 +69,7 @@ const Header = () => {
           </div>
           <div className="search-box">
             <div className="search"></div>
-            <span className="mr-[20px!important] ml-[20px!important] relative cursor-pointer max-w-[19px] w-full h-[19px] inline-block">
+            <span className="mr-[20px!important] ml-[20px!important] top-[5px] relative cursor-pointer max-w-[19px] w-full h-[19px] inline-block">
               <Image
                 src="/images/magnify-glass.png"
                 width={19}
