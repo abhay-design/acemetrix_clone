@@ -9,7 +9,7 @@ const Banner = () => {
         playsInline
         className="banner-video object-cover"
         width={1000}
-        height={1000}
+        height={964}
       >
         <source src="/videos/home-kayak.mp4" type="video/mp4" />
         Your browser does not support the video tag.
